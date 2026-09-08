@@ -2,10 +2,10 @@
 title: "Harness Engineering: How to Build AI Agents That Don't Fall Apart"
 author: "rari (@0xwhrrari)"
 source_url: "https://x.com/0xwhrrari/article/2093685107534000560"
-published_at: "2026-08-29T13:00:03.000Z"
+published_at: "2026-08-29"
 archived_at: "2026-09-08"
 x_post_id: "2093685107534000560"
-archive_note: "Rebuilt from X page structure: H3 headings, 16 inline code blocks, 3 images. Media in ./media/."
+archive_note: "Browser-captured: H3, 16 inline code blocks, 3 images, quotes + source links. Media in ./media/."
 ---
 
 # Harness Engineering: How to Build AI Agents That Don't Fall Apart
@@ -36,9 +36,9 @@ And designing it is harness engineering
 
 Dario Amodei, CEO of Anthropic, said it directly while explaining how Claude Code emerged
 
-"Of course, you need an interface, you need a harness to use them"
+> "Of course, you need an interface, you need a harness to use them"
 
-I publish practical breakdowns of AI agents, workflows, and production systems on Substack Join the newsletter here
+I publish practical breakdowns of AI agents, workflows, and production systems on Substack [Join the newsletter here](https://whrrari.substack.com/subscribe?next=https%3A%2F%2Fsubstack.com%2F%40whrrari%2Fnotes&utm_source=profile-page&utm_medium=web&utm_campaign=substack_profile&just_signed_up=true)
 
 ### The model is only the reasoning engine
 
@@ -90,9 +90,9 @@ The response was not to tell the agent to try harder
 
 It was to ask what capability was missing and make that capability both legible and enforceable
 
-"The environment was underspecified"
+> "The environment was underspecified"
 
-OpenAI, Harness engineering: leveraging Codex in an agent-first world
+[OpenAI, Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
 
 This is the central idea
 
@@ -282,10 +282,6 @@ But "keep trying until it works" is not a control system
 
 A useful loop has evidence, bounded retries, a budget, and an escalation path
 
-The model should decide how to repair the local gap
-
-The harness should decide whether another attempt is allowed
-
 ```text
 for (let attempt = 1; attempt <= 3; attempt += 1) {
   const artifact = await build(state)
@@ -300,13 +296,17 @@ for (let attempt = 1; attempt <= 3; attempt += 1) {
 return requestHumanReview(state)
 ```
 
+The model should decide how to repair the local gap
+
+The harness should decide whether another attempt is allowed
+
 Anthropic reached a similar conclusion in its work on long-running agents
 
 Structured artifacts preserve continuity across sessions, while a separate evaluator gives the builder concrete feedback instead of letting it approve its own work
 
-"Find the simplest solution possible, and only increase complexity when needed"
+> "Find the simplest solution possible, and only increase complexity when needed"
 
-Anthropic, Harness design for long-running application development
+[Anthropic, Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
 
 ### Failure should upgrade the system
 
@@ -315,14 +315,6 @@ Anthropic, Harness design for long-running application development
 Most people repair the current output
 
 Harness engineers repair the class of failure
-
-The immediate patch fixes one run
-
-The harness change improves every run after it
-
-That is the compounding advantage
-
-A good harness converts agent mistakes into infrastructure
 
 ```text
 MISSING CONTEXT   -> add a map or retrieval rule
@@ -333,6 +325,14 @@ UNSAFE ACTION     -> add a permission gate
 LOST DECISION     -> store it in durable state
 UNKNOWN FAILURE   -> add tracing and evidence capture
 ```
+
+The immediate patch fixes one run
+
+The harness change improves every run after it
+
+That is the compounding advantage
+
+A good harness converts agent mistakes into infrastructure
 
 ### Separate the brain, the hands, and the history
 
@@ -356,6 +356,8 @@ If the model changes, the tools and policy remain inspectable
 If a task resumes, a new session can reconstruct the state from artifacts and traces
 
 Anthropic's Managed Agents architecture makes this separation explicit through the session, harness, and sandbox
+
+[https://x.com/i/web/status/2041927687460024721](https://x.com/i/web/status/2041927687460024721)
 
 The important part is not the vendor
 
@@ -382,7 +384,6 @@ Keep a compact receipt that explains how the output was produced
   "accepted_artifact": "pr_1842",
   "rollback_point": "commit_7f3a"
 }
-
 ```
 
 This makes model upgrades comparable
@@ -438,7 +439,6 @@ Before you trust an agent with real work, ask
 [ ] Can you explain every tool call and state change
 [ ] Does failure update a guide, test, tool, or policy
 [ ] Can the final artifact be rolled back
-
 ```
 
 If several answers are no, a stronger model will not make the system reliable
@@ -453,6 +453,14 @@ Context engineering decides what the model sees
 
 Harness engineering builds the world in which the model acts
 
+```text
+PROMPT      -> instruction
+CONTEXT     -> working view
+HARNESS     -> operating system
+LOOP        -> local improvement
+GRAPH       -> coordination
+```
+
 The model may change next month
 
 The tools, tests, state, policies, and traces can keep improving
@@ -465,20 +473,12 @@ They will ask which environment makes that intelligence reliable
 
 That is harness engineering
 
-```text
-PROMPT      -> instruction
-CONTEXT     -> working view
-HARNESS     -> operating system
-LOOP        -> local improvement
-GRAPH       -> coordination
-```
-
 ### If you read this far
 
--> Subscribe to my Substack
+-> [Subscribe to my Substack](https://whrrari.substack.com/subscribe?next=https%3A%2F%2Fsubstack.com%2F%40whrrari%2Fnotes&utm_source=profile-page&utm_medium=web&utm_campaign=substack_profile&just_signed_up=true)
 
--> Join my Telegram
+-> [Join my Telegram](https://t.me/+qqS3Qn-x1305ZmUy)
 
 -> Bookmark the article so you can use the checklist when you build your next agent
 
--> Follow @0xwhrrari for more practical breakdowns of agent systems
+-> [Follow @0xwhrrari](https://x.com/0xwhrrari) for more practical breakdowns of agent systems
