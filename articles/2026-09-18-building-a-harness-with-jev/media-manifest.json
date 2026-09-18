@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "file": "media/01-cover.webp",
+      "role": "cover",
+      "original_cdn_url": "https://pbs.twimg.com/media/HSdguxyboAAljJm?format=webp&name=medium"
+    },
+    {
+      "file": "media/02-question-types.jpg",
+      "role": "inline",
+      "original_cdn_url": "https://pbs.twimg.com/media/HSdZNFLaIAAuezm.jpg",
+      "article_media_url": "https://x.com/sydneyrunkle/article/2100754364545761643/media/2100745832454823936"
+    }
+  ]
+}
