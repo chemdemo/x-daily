@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-cover.webp",
+    "role": "cover",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtEPqHWwAA7FKs?format=webp&name=medium"
+  },
+  {
+    "file": "02-evolution.png",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtK2KZW8AEKf3e.png"
+  },
+  {
+    "file": "03-karpathy.jpg",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtSwkNXwAAEFlJ.jpg"
+  },
+  {
+    "file": "04-operations.png",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtLNpsXwAA4qBD.png"
+  },
+  {
+    "file": "05-cherny.png",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtUNG_XsAAABiQ.png"
+  },
+  {
+    "file": "06-loop.png",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtML4YXgAAGBkT.png"
+  },
+  {
+    "file": "07-claude-code.jpg",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtR5GJX0AAVdMR.jpg"
+  },
+  {
+    "file": "08-learnings.png",
+    "role": "inline",
+    "original_cdn_url": "https://pbs.twimg.com/media/HMtNn6DX0AArbOd.png"
+  }
+]
