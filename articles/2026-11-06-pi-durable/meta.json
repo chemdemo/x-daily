@@ -1,0 +1,190 @@
+{
+  "title": "Pi Durable reading notes",
+  "title_zh": "Pi Durable 阅读笔记",
+  "kind": "topic-collection",
+  "archived_at": "2026-11-06",
+  "description": "Independent bilingual structured-notes collection on Pi Durable for in-house harness engineering. Not full reprints.",
+  "suggested_reading_order": [
+    "official/01-pi-durable-announcement",
+    "tutorials/01-agent-engineering-intro",
+    "tutorials/02-agent-engineering-first-conversation",
+    "tutorials/03-agent-engineering-sqlite-resume",
+    "official/02-pi-durable-on-cloudflare",
+    "official/04-pi-durable-cloudflare-sample",
+    "practice/03-withone-gmail-idempotency"
+  ],
+  "sources": [
+    {
+      "slug": "official/01-pi-durable-announcement",
+      "title": "Pi Durable — official announcement",
+      "author": "Earendil Engineering",
+      "source_url": "https://earendil.com/posts/pi-durable/",
+      "published_at": "2026-10-01",
+      "category": "official",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "official/02-pi-durable-on-cloudflare",
+      "title": "Pi Durable on Cloudflare",
+      "author": "Earendil Engineering",
+      "source_url": "https://earendil.com/posts/pi-durable-on-cloudflare/",
+      "published_at": "2026-10-16",
+      "category": "official",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "official/03-durable-package-readme",
+      "title": "@earendil-works/pi-durable README",
+      "author": "Earendil / pi-durable maintainers",
+      "source_url": "https://github.com/earendil-works/pi/blob/main/packages/durable/README.md",
+      "published_at": null,
+      "category": "official",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "official/04-pi-durable-cloudflare-sample",
+      "title": "pi-durable-cloudflare sample repo",
+      "author": "earendil-works",
+      "source_url": "https://github.com/earendil-works/pi-durable-cloudflare",
+      "published_at": null,
+      "category": "official",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "official/05-cloudflare-agents-pi",
+      "title": "Cloudflare Agents SDK — PiHarness",
+      "author": "Cloudflare",
+      "source_url": "https://developers.cloudflare.com/agents/harnesses/pi/",
+      "published_at": "2026-11-03",
+      "category": "official",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "official/06-vercel-running-pi-durably",
+      "title": "Vercel — Running Pi Durably",
+      "author": "Vercel",
+      "source_url": "https://vercel.com/docs/agent-harnesses/pi",
+      "published_at": null,
+      "category": "official",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "tutorials/01-agent-engineering-intro",
+      "title": "Agent-Engineering — Introduction",
+      "author": "Nelson Lin",
+      "source_url": "https://www.agent-engineering.dev/series/comprehensive-pi-durable-agent-from-zero-to-hero/article/introduction-to-pi-durable-building-agents-that-survive-crashes-and-run-for-hours",
+      "published_at": "2026-11-03",
+      "category": "tutorials",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "tutorials/02-agent-engineering-first-conversation",
+      "title": "Agent-Engineering — First conversation",
+      "author": "Nelson Lin",
+      "source_url": "https://www.agent-engineering.dev/series/comprehensive-pi-durable-agent-from-zero-to-hero/article/setting-up-a-project-and-running-your-first-pi-durable-conversation",
+      "published_at": "2026-11-03",
+      "category": "tutorials",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "tutorials/03-agent-engineering-sqlite-resume",
+      "title": "Agent-Engineering — SQLite & resume()",
+      "author": "Nelson Lin",
+      "source_url": "https://www.agent-engineering.dev/series/comprehensive-pi-durable-agent-from-zero-to-hero/article/pi-durable-persistence-sqlite-crash-recovery-and-resume",
+      "published_at": "2026-11-04",
+      "category": "tutorials",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "tutorials/04-from-the-ground-up",
+      "title": "pi-durable, from the ground up",
+      "author": "Akshay Parkhi",
+      "source_url": "https://www.akshayparkhi.net/2026/Oct/20/pi-durable-from-the-ground-up/",
+      "published_at": "2026-10-20",
+      "category": "tutorials",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "tutorials/05-joulyan-in-practice",
+      "title": "Pi Durable in Practice (Joulyan)",
+      "author": "Joulyan IT",
+      "source_url": "https://joulyan.com/en/blog/pi-durable-in-practice-building-agents-that-pick-up-where-they-left-off",
+      "published_at": "2026-10-17",
+      "category": "tutorials",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "tutorials/06-cheatsheet",
+      "title": "Pi Durable cheatsheet",
+      "author": "luongnv.com",
+      "source_url": "https://luongnv.com/awesome-cheatsheets/cheatsheets/pi-durable/",
+      "published_at": null,
+      "category": "tutorials",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "practice/01-orbi-harness-vs-durable",
+      "title": "Orbi — harness vs Durable vs kill -9",
+      "author": "Larry (Orbi)",
+      "source_url": "https://orbi.build/blog/pi-agent-harness/",
+      "published_at": "2026-10-06",
+      "category": "practice",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "practice/02-bokvi-survives-crashes",
+      "title": "Bokvi — survives its own crashes",
+      "author": "Tomáš",
+      "source_url": "https://blog.bokvi.com/blog/pi-durable-agent-harness/",
+      "published_at": "2026-10-03",
+      "category": "practice",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "practice/03-withone-gmail-idempotency",
+      "title": "WithOne — crash-safe Gmail draft",
+      "author": "One Team",
+      "source_url": "https://www.withone.ai/blog/pi-durable-crash-safe-one-cli",
+      "published_at": "2026-10-02",
+      "category": "practice",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "practice/04-daily-dev-walkthrough",
+      "title": "daily.dev / Flavio walkthrough",
+      "author": "Flavio Copes",
+      "source_url": "https://daily.dev/posts/how-to-build-agents-that-survive-crashes-with-pi-durable-zt8jcyleg",
+      "published_at": "2026-11-04",
+      "category": "practice",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "background/01-what-is-a-harness",
+      "title": "What is a Harness?",
+      "author": "Earendil Product",
+      "source_url": "https://earendil.com/posts/what-is-a-harness/",
+      "published_at": "2026-08-20",
+      "category": "background",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "background/02-compaction-in-pi",
+      "title": "How Compaction Works in Pi",
+      "author": "Earendil Engineering",
+      "source_url": "https://earendil.com/posts/compaction-in-pi/",
+      "published_at": "2026-08-13",
+      "category": "background",
+      "kind": "structured-notes"
+    },
+    {
+      "slug": "background/03-pi-1-0",
+      "title": "Pi 1.0 announcement",
+      "author": "Earendil",
+      "source_url": "https://earendil.com/posts/pi-1-0/",
+      "published_at": "2026-10-01",
+      "category": "background",
+      "kind": "structured-notes"
+    }
+  ],
+  "fetch_failures": []
+}
