@@ -1,0 +1,40 @@
+{
+  "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution (full-text reprint)",
+  "title_official": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+  "list_title_in_source_post": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+  "author": "Wenxuan Ding, Qin Lu, Changlong Yu, Sha Li, Shuowei Jin, Xin Liu, Zhenyu Shi, and Greg Durrett",
+  "authors": [
+    "Wenxuan Ding",
+    "Qin Lu",
+    "Changlong Yu",
+    "Sha Li",
+    "Shuowei Jin",
+    "Xin Liu",
+    "Zhenyu Shi",
+    "Greg Durrett"
+  ],
+  "source_url": "https://arxiv.org/abs/2610.22466",
+  "pdf_url": "https://arxiv.org/pdf/2610.22466",
+  "html_url": "https://arxiv.org/html/2610.22466",
+  "arxiv_id": "2610.22466",
+  "arxiv_version": "v1",
+  "published_at": "2026-10-16",
+  "published_at_note": "arXiv published 2026-10-15T17:39:38Z = 2026-10-16 01:39 Asia/Shanghai",
+  "archived_at": "2026-11-25",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_allows_full_reprint_and_translation": true,
+  "kind": "full-text-reprint",
+  "list_index": 5,
+  "fetch_status": "success",
+  "fetch_note": "arXiv HTML 200; PDF also retrieved",
+  "pages": 20,
+  "code_url": "https://github.com/Wenwen-D/HarnessDeltaAttribution",
+  "project_url": "https://wenwen-d.github.io/blog/harness-delta-attribution/",
+  "english_scope": "Full reprint, abstract through Appendix G.",
+  "chinese_scope": "Unabridged unofficial translation, including Appendices A-G. Not a summary.",
+  "chinese_left_in_english": [
+    "code listings",
+    "bibliography"
+  ]
+}
