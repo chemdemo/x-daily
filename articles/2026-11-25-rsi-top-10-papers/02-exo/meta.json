@@ -1,0 +1,37 @@
+{
+  "title": "Exo: A Harness Architecture for Runtime Self-Improvement (full-text reprint)",
+  "title_official": "Exo: A Harness Architecture for Runtime Self-Improvement",
+  "title_paper_body": "Exo: A Harness Architecture for Runtime Self-Improvement",
+  "title_arxiv_abs": "Exo: An Architecture for Self-Improving Systems at Runtime",
+  "list_title_in_source_post": "Exo: An Architecture for Self-Improving Systems at Runtime",
+  "author": "Alexander Krentsel, Sylvia Ratnasamy, Ion Stoica, Martin Casado, and Ankur Goyal",
+  "authors": [
+    "Alexander Krentsel",
+    "Sylvia Ratnasamy",
+    "Ion Stoica",
+    "Martin Casado",
+    "Ankur Goyal"
+  ],
+  "source_url": "https://arxiv.org/abs/2611.00463",
+  "pdf_url": "https://arxiv.org/pdf/2611.00463",
+  "html_url": "https://arxiv.org/html/2611.00463",
+  "arxiv_id": "2611.00463",
+  "arxiv_version": "v1",
+  "published_at": "2026-10-31",
+  "published_at_note": "arXiv published 2026-10-30T23:31:22Z = 2026-10-31 07:31 Asia/Shanghai",
+  "archived_at": "2026-11-25",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_allows_full_reprint_and_translation": true,
+  "kind": "full-text-reprint",
+  "list_index": 2,
+  "fetch_status": "success",
+  "fetch_note": "Abstract-page title differs from the paper-body title; this reprint uses the body title. Official HTML ends during section 5.4. From the rest of section 5.4 through Appendix B the text is transcribed from the PDF, including section 6, the reference list, the AI usage disclosure, and Appendices A and B.",
+  "pages": 14,
+  "code_url": "https://github.com/exoharness/exo/tree/c5c1963a3445417e64938c139da88edd9154075d",
+  "english_scope": "Full reprint. HTML ends during section 5.4; the rest through Appendix B is from the PDF. Table 1 body restored from the PDF.",
+  "chinese_scope": "Unabridged unofficial translation, including Appendices A-B and Table 1. Not a summary.",
+  "chinese_left_in_english": [
+    "bibliography"
+  ]
+}

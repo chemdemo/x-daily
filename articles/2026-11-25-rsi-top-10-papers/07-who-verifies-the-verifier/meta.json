@@ -1,0 +1,38 @@
+{
+  "title": "Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents (full-text reprint)",
+  "title_official": "Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents",
+  "list_title_in_source_post": "Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents",
+  "author": "Xing Zhang, Guanghui Wang, Yanwei Cui, Ziyuan Li, Wei Qiu, Bing Zhu, and Peiyang He",
+  "authors": [
+    "Xing Zhang",
+    "Guanghui Wang",
+    "Yanwei Cui",
+    "Ziyuan Li",
+    "Wei Qiu",
+    "Bing Zhu",
+    "Peiyang He"
+  ],
+  "source_url": "https://arxiv.org/abs/2610.11464",
+  "pdf_url": "https://arxiv.org/pdf/2610.11464",
+  "html_url": "https://arxiv.org/html/2610.11464",
+  "arxiv_id": "2610.11464",
+  "arxiv_version": "v1",
+  "published_at": "2026-10-08",
+  "published_at_note": "arXiv published 2026-10-08T08:13:53Z = 2026-10-08 16:13 Asia/Shanghai",
+  "archived_at": "2026-11-25",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license_allows_full_reprint_and_translation": true,
+  "kind": "full-text-reprint",
+  "list_index": 7,
+  "fetch_status": "success",
+  "fetch_note": "arXiv HTML 200; PDF also retrieved. Accepted at the NeurIPS 2026 Workshop: Who Verifies the Agents?",
+  "pages": 17,
+  "license_note": "Non-commercial use only; derivatives including the Chinese translation must be shared under CC BY-NC-SA 4.0.",
+  "english_scope": "Full reprint, abstract through Appendix G. License remains CC BY-NC-SA 4.0.",
+  "chinese_scope": "Unabridged unofficial translation under CC BY-NC-SA 4.0 (non-commercial, share-alike). Not a summary.",
+  "chinese_left_in_english": [
+    "verbatim verifier expressions",
+    "bibliography"
+  ]
+}

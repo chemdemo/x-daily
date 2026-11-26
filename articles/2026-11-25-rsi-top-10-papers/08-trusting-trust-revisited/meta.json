@@ -1,0 +1,34 @@
+{
+  "title": "Reflections on Trusting Trust, Revisited (structured notes)",
+  "title_zh": "Reflections on Trusting Trust, Revisited（结构化笔记）",
+  "author": "Franziska Roesner and Tadayoshi Kohno",
+  "authors": [
+    "Franziska Roesner",
+    "Tadayoshi Kohno"
+  ],
+  "source_url": "https://arxiv.org/abs/2609.17817",
+  "pdf_url": "https://arxiv.org/pdf/2609.17817",
+  "html_url": "https://arxiv.org/html/2609.17817",
+  "arxiv_id": "2609.17817",
+  "arxiv_version": "v1",
+  "published_at": "2026-09-16",
+  "published_at_note": "arXiv published 2026-09-15T20:32:53Z = 2026-09-16 04:32 Asia/Shanghai",
+  "archived_at": "2026-11-25",
+  "license": "arXiv.org perpetual, non-exclusive license 1.0",
+  "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "license_allows_full_reprint_and_translation": false,
+  "kind": "structured-notes",
+  "list_index": 8,
+  "fetch_status": "success",
+  "fetch_sources": [
+    "https://arxiv.org/abs/2609.17817",
+    "https://arxiv.org/html/2609.17817",
+    "https://arxiv.org/pdf/2609.17817"
+  ],
+  "pages": 22,
+  "notes_omit_attack_procedures": true,
+  "list_title_in_source_post": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+  "english_scope": "Short high-level notes. Not a reprint. No attack procedure.",
+  "chinese_scope": "Chinese rendering of those notes. Not a translation of the paper.",
+  "chinese_left_in_english": []
+}

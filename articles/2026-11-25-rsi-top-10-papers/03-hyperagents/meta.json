@@ -1,0 +1,42 @@
+{
+  "title": "Hyperagents (full-text reprint)",
+  "title_official": "Hyperagents",
+  "list_title_in_source_post": "Hyperagents",
+  "author": "Jenny Zhang, Bingchen Zhao, Wannan Yang, Jakob Foerster, Jeff Clune, Minqi Jiang, Sam Devlin, and Tatiana Shavrina",
+  "authors": [
+    "Jenny Zhang",
+    "Bingchen Zhao",
+    "Wannan Yang",
+    "Jakob Foerster",
+    "Jeff Clune",
+    "Minqi Jiang",
+    "Sam Devlin",
+    "Tatiana Shavrina"
+  ],
+  "source_url": "https://arxiv.org/abs/2603.19461",
+  "pdf_url": "https://arxiv.org/pdf/2603.19461",
+  "html_url": "https://ar5iv.labs.arxiv.org/html/2603.19461",
+  "arxiv_id": "2603.19461",
+  "arxiv_version": "v2",
+  "published_at": "2026-03-20",
+  "published_at_note": "arXiv published 2026-03-19T20:50:08Z = 2026-03-20 04:50 Asia/Shanghai; v2 updated 2026-11-01T21:28:39Z = 2026-11-02 05:28 Asia/Shanghai",
+  "archived_at": "2026-11-25",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_allows_full_reprint_and_translation": true,
+  "kind": "full-text-reprint",
+  "list_index": 3,
+  "fetch_status": "success",
+  "fetch_note": "Official arXiv HTML returned 404; full text taken from the public ar5iv HTML conversion of the PDF (https://ar5iv.labs.arxiv.org/html/2603.19461) and checked against the PDF",
+  "pages": 63,
+  "code_url": "https://github.com/facebookresearch/Hyperagents",
+  "english_scope": "Full v2 reprint, abstract through Appendix F.",
+  "chinese_scope": "Unabridged unofficial translation of the prose through Appendix F. Not a summary.",
+  "chinese_left_in_english": [
+    "code",
+    "prompts",
+    "pseudocode",
+    "diffs",
+    "bibliography"
+  ]
+}
