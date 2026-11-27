@@ -20,7 +20,3 @@
 ## RSI 十篇精选（2026-11-25）
 
 [`2026-11-25-rsi-top-10-papers/`](2026-11-25-rsi-top-10-papers/) 收录 [@omarsar0《My Top 10 RSI Papers of 2026》](https://x.com/omarsar0/status/2125234668396023943) 列出的十篇论文。许可允许再分发和翻译的 7 篇是全文转载加不删减中文翻译；其余 3 篇只收短篇双语笔记。索引：[README.md](2026-11-25-rsi-top-10-papers/README.md) / [README_zh.md](2026-11-25-rsi-top-10-papers/README_zh.md)。
-
-## Gemini 4 Neon agent team（2026-11-25）
-
-[`2026-11-25-gemini-4-neon-agent-team/`](2026-11-25-gemini-4-neon-agent-team/) 收录 Movez（[@0xMovez](https://x.com/0xMovez)）X Article 的双语结构化研究笔记（不是全文转载，也不是逐段翻译）。原文帖：[status/2125577359269019791](https://x.com/0xMovez/status/2125577359269019791)，X Article：[2125560293870669824](https://x.com/i/article/2125560293870669824)。笔记：[article.md](2026-11-25-gemini-4-neon-agent-team/article.md) / [article_zh.md](2026-11-25-gemini-4-neon-agent-team/article_zh.md)。长提示词和 18 张截图只在原文。
